@@ -9,11 +9,13 @@ package instituto;
 public class Alumno extends Persoa{
 	static int numExpedienteActual = 0;
 	private int numExpediente;
-	/**
-	 * 
-	 * @param nome onde gardamos o valor do atributo nome da Clase
-	 * @param idade
-	 */
+/**
+ * 
+ * @param nome onde gardamos o valor do atributo nome da Clase
+ * @param idade onde gardamos o valor do atributo idade da Clase 
+ * @super chamada o constructor da clase Persoa (clase pai)
+ * 
+ */
 	public Alumno(String nome, int idade) {
 		super(nome, idade);
 		Alumno.numExpedienteActual++;
