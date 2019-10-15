@@ -1,14 +1,21 @@
 package instituto;
-
+/**
+ * 
+ * @author a18pablogn
+ * @version Beta 
+ * @since 15/10/2019
+ *
+ */
 public class Instituto {
 	
 	/**
-	 * @author a18pablogn
+	 * @author a18pablogn 
+	 * @version Beta 
+	 * @since 15/10/2019
+	 * Método Main (principal) onde se executa o programa
+	 * Descripción, creación de 2 arrays con 2 obxetos de cada clase e logo se visualizan por pantalla.
 	 */
 	public static void main(String[] args) {
-		/**
-		 * 
-		 */
 		Profesor[] profesores = new Profesor[2];
 		Alumno[] alumnos = new Alumno[2];
 		
